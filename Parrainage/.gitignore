@@ -1,1 +1,28 @@
 /bin/
+/build/
+/out/
+/target/
+
+# Compiled Java artifacts
+*.class
+*.jar
+*.war
+*.ear
+
+# Local environment / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# Logs and local OS/editor artifacts
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
